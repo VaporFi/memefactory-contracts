@@ -20,6 +20,6 @@
     "ds-test": "github:dapphub/ds-test",
     "forge-std": "github:foundry-rs/forge-std#v1",
     "hardhat": "^2.19.3",
-    "hardhat-deploy": "^0.11.45"
+    "hardhat-deploy": "^0.12.0"
   }
 }
