@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^2.19.3
     version: 2.22.2(ts-node@10.9.2)(typescript@5.4.4)
   hardhat-deploy:
-    specifier: ^0.11.45
-    version: 0.11.45
+    specifier: ^0.12.0
+    version: 0.12.2
   husky:
     specifier: ^9.0.11
     version: 9.0.11
@@ -3224,8 +3224,8 @@ packages:
       har-schema: 2.0.0
     dev: true
 
-  /hardhat-deploy@0.11.45:
-    resolution: {integrity: sha512-aC8UNaq3JcORnEUIwV945iJuvBwi65tjHVDU3v6mOcqik7WAzHVCJ7cwmkkipsHrWysrB5YvGF1q9S1vIph83w==}
+  /hardhat-deploy@0.12.2:
+    resolution: {integrity: sha512-Xp/4Lb5lC/j3kvitaWW5IZN5Meqv5D3kTIifc3ZwBoQtFLN26/fDfRV6MWAAcRO9gH64hZVokvtcDdl/fd7w3A==}
     dependencies:
       '@ethersproject/abi': 5.7.0
       '@ethersproject/abstract-signer': 5.7.0
@@ -3250,7 +3250,7 @@ packages:
       match-all: 1.2.6
       murmur-128: 0.2.1
       qs: 6.12.0
-      zksync-web3: 0.14.4(ethers@5.7.2)
+      zksync-ethers: 5.7.0(ethers@5.7.2)
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -6089,11 +6089,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zksync-web3@0.14.4(ethers@5.7.2):
-    resolution: {integrity: sha512-kYehMD/S6Uhe1g434UnaMN+sBr9nQm23Ywn0EUP5BfQCsbjcr3ORuS68PosZw8xUTu3pac7G6YMSnNHk+fwzvg==}
-    deprecated: This package has been deprecated in favor of zksync-ethers@5.0.0
+  /zksync-ethers@5.7.0(ethers@5.7.2):
+    resolution: {integrity: sha512-X99c5APICTlRzyXXjfwkEjRzOPp3Jwo62+z2DVGaZbe+b9Apbizcd2UGV4NGomoAR2GXPbeiSqi1cf3Hbo3cQw==}
+    engines: {node: '>=16.0.0'}
     peerDependencies:
-      ethers: ^5.7.0
+      ethers: ~5.7.0
     dependencies:
       ethers: 5.7.2
     dev: true
